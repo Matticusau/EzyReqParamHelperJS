@@ -1,0 +1,20 @@
+{
+  "name": "ezyreqparamhelperjs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Node JS Helper Module for processing and working with Request Parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matticusau/EzyReqParamHelperJS.git"
+  },
+  "author": "matticusau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Matticusau/EzyReqParamHelperJS/issues"
+  },
+  "homepage": "https://github.com/Matticusau/EzyReqParamHelperJS#readme"
+}
