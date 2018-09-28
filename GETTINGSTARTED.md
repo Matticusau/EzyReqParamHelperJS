@@ -56,6 +56,15 @@ This project was built using steps based on the following blog post. The steps a
     ...
     ```
 
+1. Modify the `package.json` file to point to the javascript file which will be compiled
+
+    ```json
+    ...
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    ...
+    ```
+
 ## Create the module
 
 1. Create a `\lib` folder in the root of our project.
