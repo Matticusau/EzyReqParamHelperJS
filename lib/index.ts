@@ -5,6 +5,7 @@
 //
 // When         Who         What
 // ------------------------------------------------------------------------------------------
+// 29/09/2018   MLavery     Added check for null value in Validate function
 //
 
 
@@ -74,7 +75,7 @@ export function validate(value: any, expectedType: string, defaultValue: any) {
 
     try {
         // was the value defined
-        if (undefined === value) {
+        if (undefined === value || null === value) {
             return defaultValue;
         } else {
             // if we can attempt to parse the type

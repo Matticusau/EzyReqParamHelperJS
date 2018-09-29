@@ -6,6 +6,7 @@
 //
 // When         Who         What
 // ------------------------------------------------------------------------------------------
+// 29/09/2018   MLavery     Added check for null value in Validate function
 //
 Object.defineProperty(exports, "__esModule", { value: true });
 //
@@ -66,7 +67,7 @@ function validate(value, expectedType, defaultValue) {
     }
     try {
         // was the value defined
-        if (undefined === value) {
+        if (undefined === value || null === value) {
             return defaultValue;
         }
         else {
