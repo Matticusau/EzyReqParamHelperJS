@@ -14,9 +14,9 @@ To use this package in other packages
 
 1. Navigate to your other project and run
 
-`npm link ezyreqparamhelperjs`
+`npm link EzyReqParamHelperJs`
 
-You can then use this package as you would any public package `var ezyReqParamHelperJS = require('ezyreqparamhelperjs');`
+You can then use this package as you would any public package `var EzyReqParamHelperJs = require('EzyReqParamHelperJs');`
 
 ## Reference
 
