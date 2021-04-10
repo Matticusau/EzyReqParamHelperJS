@@ -1,7 +1,7 @@
 {
-  "name": "EzyReqParamHelperJs",
+  "name": "ezyreqparamhelperjs",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "A Node JS Helper Module for processing and working with Request Parameters",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
