@@ -78,3 +78,9 @@ This project was built using steps based on the following blog post. The steps a
 1. Run `npm run build` to compile the module
 
 1. You should have a `\dist` folder created with the compiled javascript file(s)
+
+## Publish the module
+
+1. To first publish the module you need to ensure you have configured your account with `npm login`
+1. Update the version of the project `npm version [major|minor|patch]`
+1. Publish with `npm publish`
