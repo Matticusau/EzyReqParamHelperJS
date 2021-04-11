@@ -1,6 +1,6 @@
 {
   "name": "ezyreqparamhelperjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "A Node JS Helper Module for processing and working with Query Request Parameters in API or similar projects. Includes helper functions to retrieve the parameter, and perform type validation.",
   "main": "dist/index.js",
